@@ -82,7 +82,7 @@ class GeonamesQuery(MultipleResultsQuery):
     provider = 'geonames'
     method = 'geocode'
 
-    _URL = 'http://api.geonames.org/searchJSON'
+    _URL = 'http://ws.geonames.net/searchJSON'
     _RESULT_CLASS = GeonamesResult
     _KEY = geonames_username
 
